@@ -1,7 +1,8 @@
 # HARPIE
-###Français
+Français
+### English
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5.
+This is an Angular-based web application that allows users to compare different insurance policies and providers.
 
 ## Development server
 
