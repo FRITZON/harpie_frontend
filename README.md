@@ -21,6 +21,12 @@ Assurez-vous d'avoir installé Node.js et npm (le gestionnaire de paquets de Nod
 de Node.js : https://nodejs.org/.
 Installez Angular CLI globalement sur votre système en ouvrant un terminal et en exécutant la commande : npm install -g @angular/cli.
 
+### English
+
+Make sure you have Node.js and npm (the Node.js package manager) installed on your computer. You can download them from the official website
+from Node.js: https://nodejs.org/.
+Install Angular CLI globally on your system by opening a terminal and running the command: npm install -g @angular/cli.
+
 
 ## Build
 
