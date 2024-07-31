@@ -1,5 +1,5 @@
 # HARPIE
-Français
+### Français
 
 Il s'agit d'une application Web basée sur Angular qui permet aux utilisateurs de comparer différentes polices et fournisseurs d'assurance.
 ### English
@@ -9,12 +9,15 @@ This is an Angular-based web application that allows users to compare different 
 ## Table des Matières/Table of Contents
 
 1. [Installation](#installation)
-2. [Usage](#usage)
-3. [Contribution](#contribution)
+2. [Utilisation](#utilisation)
+3. [Fonctionnalités](#fonctionnalités)
+4. [Références](#références)
+5. [Licence](#licence)
 
-## Code scaffolding
+## Installation/Installation
+### Français
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
 
 ## Build
 
