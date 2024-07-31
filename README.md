@@ -9,7 +9,7 @@ This is an Angular-based web application that allows users to compare different 
 ## Table des Matières/Table of Contents
 
 1. [Prérequis](#prérequis)
-2. [Utilisation](#utilisation)
+2. [Création du projet Angular](#création du project Angular)
 3. [Fonctionnalités](#fonctionnalités)
 4. [Références](#références)
 5. [Licence](#licence)
@@ -27,9 +27,18 @@ Make sure you have Node.js and npm (the Node.js package manager) installed on yo
 from Node.js: https://nodejs.org/.
 Install Angular CLI globally on your system by opening a terminal and running the command: npm install -g @angular/cli.
 
+## Création du projet Angular/Creating the Angular project
+### Français
 
-## Build
+Ouvrez un terminal et naviguez jusqu'au répertoire où vous souhaitez créer votre projet.Exécutez la commande ng new harpie pour créer un nouveau projet Angular nommé
+"harpie".Suivez les instructions fournies par l'interface en ligne de commande.
+Angular CLI pour configurer votre projet (par exemple, choisir le routage et le format de feuille de style).
 
+### English
+
+Open a terminal and navigate to the directory where you want to create your project. Run the ng new harpy command to create a new Angular project named
+"harpy".Follow the instructions provided by the command line interface.
+Angular CLI to configure your project (e.g. choose routing and stylesheet format).
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Running unit tests
