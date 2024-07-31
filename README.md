@@ -1,20 +1,23 @@
 # HARPIE
 ### Français
 
-Il s'agit d'une application Web basée sur Angular qui permet aux utilisateurs de comparer différentes polices et fournisseurs d'assurance. Ce guide vous apprendra à coder le front-end d'un comparateur d'assurance en utilisant Angular.
+Il s'agit d'une application Web basée sur Angular qui permet aux utilisateurs de comparer différentes polices d'assurance et fournisseurs pour trouver celui qui correspond le mieux à vos besoins. Ce guide vous apprendra à coder le front-end d'un comparateur d'assurance en utilisant Angular.
 ### English
 
-This is an Angular-based web application that allows users to compare different insurance policies and providers. This guide will teach you how to code the front-end of an insurance comparator using Angular.
+This is an Angular-based web application that allows users to compare different insurance policies and providers to find the one that best fits your needs. This guide will teach you how to code the front-end of an insurance comparator using Angular.
 
 ## Table des Matières/Table of Contents
 
-1. [Prérequis](#prérequis)
-2. [CréationduprojetAngular](#créationduprojectAngular)
+1. [Installation](#installation)
+2. [Utilisation](#utilisation)
 3. [Fonctionnalités](#fonctionnalités)
-4. [Références](#références)
-5. [Licence](#licence)
+4. [Contribution](#contribution)
+5. [Crédits](#crédits)
+6. [Références](#références)
+7. [Licence](#licence)
+8. [Contact](#contact)
 
-## Prérequis/Prerequisites
+## Installation/Installation
 ### Français
 
 Assurez-vous d'avoir installé Node.js et npm (le gestionnaire de paquets de Node.js) sur votre ordinateur. Vous pouvez les télécharger sur le site officiel
@@ -26,6 +29,12 @@ Installez Angular CLI globalement sur votre système en ouvrant un terminal et e
 Make sure you have Node.js and npm (the Node.js package manager) installed on your computer. You can download them from the official website
 from Node.js: https://nodejs.org/.
 Install Angular CLI globally on your system by opening a terminal and running the command: npm install -g @angular/cli.
+To run the Harpie application locally, follow these steps:
+1. Clone the repository
+2. Install dependencies: npm install
+3. Start the development server: ng serve
+4. Open your web browser and navigate to http://localhost:4200/ to see the application.
+
 
 ## Création du projet Angular/Creating the Angular project
 ### Français
