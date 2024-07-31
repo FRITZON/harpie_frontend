@@ -10,12 +10,11 @@ This is an Angular-based web application that allows users to compare different 
 
 1. [Installation](#installation)
 2. [Utilisation](#utilisation)
-3. [Fonctionnalités](#fonctionnalités)
-4. [Contribution](#contribution)
-5. [Crédits](#crédits)
-6. [Références](#références)
-7. [Licence](#licence)
-8. [Contact](#contact)
+3. [Contribution](#contribution)
+4. [Crédits](#crédits)
+5. [Références](#références)
+6. [Licence](#licence)
+7. [Contact](#contact)
 
 ## Installation/Installation
 ### Français
@@ -23,6 +22,11 @@ This is an Angular-based web application that allows users to compare different 
 Assurez-vous d'avoir installé Node.js et npm (le gestionnaire de paquets de Node.js) sur votre ordinateur. Vous pouvez les télécharger sur le site officiel
 de Node.js : https://nodejs.org/.
 Installez Angular CLI globalement sur votre système en ouvrant un terminal et en exécutant la commande : npm install -g @angular/cli.
+Pour exécuter l'application Harpie localement, procédez comme suit :
+1. Clonez le dépôt
+2. Installer les dépendances: npm install
+3. Démarrez le serveur de développement: ng serve
+4. Ouvrez votre navigateur Web et accédez à http://localhost:4200/ pour voir l'application.
 
 ### English
 
@@ -36,19 +40,41 @@ To run the Harpie application locally, follow these steps:
 4. Open your web browser and navigate to http://localhost:4200/ to see the application.
 
 
-## Création du projet Angular/Creating the Angular project
+## Utilisation/Usage
 ### Français
 
-Ouvrez un terminal et naviguez jusqu'au répertoire où vous souhaitez créer votre projet.Exécutez la commande ng new harpie pour créer un nouveau projet Angular nommé
-"harpie".Suivez les instructions fournies par l'interface en ligne de commande.
-Angular CLI pour configurer votre projet (par exemple, choisir le routage et le format de feuille de style).
+Au lancement du Comparateur d'Assurances, les utilisateurs peuvent :
+1. Entrez leurs informations personnelles et de couverture.
+2. Consultez une liste des régimes d'assurance qui correspondent à leurs critères.
+3. Comparez côte à côte les caractéristiques et les tarifs des différents régimes d’assurance.
+4. Sélectionnez le plan qui correspond le mieux à leurs besoins et passez au processus de paiement.
 
 ### English
 
-Open a terminal and navigate to the directory where you want to create your project. Run the ng new harpy command to create a new Angular project named
-"harpy".Follow the instructions provided by the command line interface.
-Angular CLI to configure your project (e.g. choose routing and stylesheet format).
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Upon launching the Insurance Comparator, users can:
+1. Enter their personal and coverage details.
+2. View a list of insurance plans that match their criteria.
+3. Compare the features and pricing of different insurance plans side-by-side.
+4. Select the plan that best suits their needs and proceed to the checkout process.
+
+
+## Contribution/Contributing
+### Français
+
+Nous apprécions les contributions au projet Harpie ! Si vous souhaitez contribuer, veuillez suivre ces étapes :
+1. Forkez le dépôt.
+2. Créez une nouvelle branche pour votre fonctionnalité ou votre correction de bug.
+3. Apportez vos modifications et assurez-vous que l'application fonctionne toujours comme prévu.
+4. Soumettez une pull request avec une description détaillée de vos modifications.
+   
+### English
+
+We welcome contributions to the Harpie project! If you'd like to contribute, please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and ensure the application still works as expected.
+4. Submit a pull request with a detailed description of your changes.
+
 
 ## Running unit tests
 
