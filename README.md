@@ -6,9 +6,11 @@ Il s'agit d'une application Web basée sur Angular qui permet aux utilisateurs d
 
 This is an Angular-based web application that allows users to compare different insurance policies and providers.
 
-## Development server
+## Table des Matières/Table of Contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Contribution](#contribution)
 
 ## Code scaffolding
 
