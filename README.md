@@ -89,6 +89,20 @@ We welcome contributions to the Harpie project! If you'd like to contribute, ple
 - [Bootstrap](https://getbootstrap.com/) - The CSS framework used for styling the application.
 - [RxJS](https://rxjs.dev/) - The reactive programming library used for managing data flows.
 
+
+## Références/References
+### Français
+
+- https://www.assurland.com/
+- https://www.lesfurets.com/
+- https://www.assurland.com/
+
+### English
+
+- https://www.assurland.com/
+- https://www.lesfurets.com/
+- https://www.assurland.com/
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
