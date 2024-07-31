@@ -9,7 +9,7 @@ This is an Angular-based web application that allows users to compare different 
 ## Table des Matières/Table of Contents
 
 1. [Prérequis](#prérequis)
-2. [Création du projet angular](#création du project angular)
+2. [Créationduprojetangular](#créationduprojectangular)
 3. [Fonctionnalités](#fonctionnalités)
 4. [Références](#références)
 5. [Licence](#licence)
