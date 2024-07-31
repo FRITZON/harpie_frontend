@@ -76,6 +76,19 @@ We welcome contributions to the Harpie project! If you'd like to contribute, ple
 4. Submit a pull request with a detailed description of your changes.
 
 
+## Crédits/Credits
+### Français
+
+- [Angular](https://angular.io/) - Le framework d'application Web utilisé pour ce projet.
+- [Bootstrap](https://getbootstrap.com/) - Le framework CSS utilisé pour styliser l'application.
+- [RxJS](https://rxjs.dev/) - La bibliothèque de programmation réactive utilisée pour gérer les flux de données.
+  
+### English
+
+- [Angular](https://angular.io/) - The web application framework used for this project.
+- [Bootstrap](https://getbootstrap.com/) - The CSS framework used for styling the application.
+- [RxJS](https://rxjs.dev/) - The reactive programming library used for managing data flows.
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
