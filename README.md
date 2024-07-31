@@ -17,6 +17,9 @@ This is an Angular-based web application that allows users to compare different 
 ## Prérequis/Prerequisites
 ### Français
 
+Assurez-vous d'avoir installé Node.js et npm (le gestionnaire de paquets de Node.js) sur votre ordinateur. Vous pouvez les télécharger sur le site officiel
+de Node.js : https://nodejs.org/.
+Installez Angular CLI globalement sur votre système en ouvrant un terminal et en exécutant la commande : npm install -g @angular/cli.
 
 
 ## Build
