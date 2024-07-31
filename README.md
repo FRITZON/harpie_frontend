@@ -1,5 +1,7 @@
 # HARPIE
 Français
+
+Il s'agit d'une application Web basée sur Angular qui permet aux utilisateurs de comparer différentes polices et fournisseurs d'assurance.
 ### English
 
 This is an Angular-based web application that allows users to compare different insurance policies and providers.
