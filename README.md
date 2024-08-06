@@ -125,8 +125,10 @@ Vous rencontrez des problèmes ? Consultez notre [Guide de Dépannage](TROUBLESH
 Ce projet est sous licence de notre logiciel interne personnalisé - voir le fichier [LICENSE.md](LICENSE.md) pour plus de détails.
 
 
-================= ENGLISH =====================
 
+=============================================================================
+================================== ENGLISH ==================================
+=============================================================================
 
 # Harpie - Insurance Comparison System
 
