@@ -15,6 +15,7 @@ export class SignupComponent implements OnInit{
   email: string = '';
   phone: string = '';
   password: string = '';
+  isPasswordVisible: boolean = false; // Track password visibility
 
 
   constructor(){
@@ -24,12 +25,13 @@ export class SignupComponent implements OnInit{
   ngOnInit(): void {
       
   }
+
+  togglePasswordVisibility() {
+    this.isPasswordVisible = !this.isPasswordVisible; // Toggle visibility
+  }
+
   
-  onSubmit(form: NgForm) {
-    
+  onSubmit(form: NgForm){
+
 }
 }
-
-
-
-

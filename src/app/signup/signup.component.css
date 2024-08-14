@@ -1,88 +1,149 @@
 .main{
-    background-color: #C1BFFE;
-    margin: 0px;
-    padding: 0px;
+  background-color: #C1BFFE;
+  margin: 0px;
+  padding: 0px;
 
 }
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 
-  }
-  
-  .form-card {
-    background-color: white;
-    border-radius: 8px;
-    padding: 40px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 600px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-  }
- 
-  .form-card h2 {
-    margin-bottom: 10px;
-  }
-  
-  .form-card p {
-    margin: 10px 0;
-    color: #666;
-  }
-  
-  .form-group {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 10px;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  input[type="tel"],
-  input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .signup-btn {
-    background-color: #fbbf24;
-    border: none;
-    padding: 10px;
-    width: 100%;
-    border-radius: 4px;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    margin-bottom: 10px;
-  }
-  
-  .social-btn {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    margin-bottom: 10px;
-    cursor: pointer;
-    color: white;
-  }
-  
-  .facebook {
-    background-color: #3b5998;
-  }
-  
-  .linkedin {
-    background-color: #0077b5;
-  }
-  
-  .google {
-    background-color: #db4437;
-  }
-  
-  a {
-    color: #3b82f6;
-    text-decoration:none;
-  }
+}
+
+.form-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+  flex: 1; /* This allows the inputs to take equal space */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #C9D9DF;
+  border-radius: 4px;
+  background-color: #C9D9DF;
+}
+
+
+.form-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 600px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.form-card h2 {
+  margin-bottom: 10px;
+}
+
+.form-card p {
+  margin: 10px 0;
+  color: #666;
+}
+
+.eye-icon {
+  cursor: pointer;
+  position: absolute; /* Adjust position as needed */
+  right: 15px; /* Adjust to fit your design */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Center adjustment */
+}
+.form-group {
+  position: relative; /* Needed for absolute positioning of the eye icon */
+}
+
+
+.form-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signup-btn {
+  background-color: #fbbf24;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: space-between; /* Adjusts spacing between buttons */
+  margin-bottom: 10px; /* Adds spacing below the buttons */
+}
+
+.social-btn {
+  flex: 1; /* This allows the buttons to take equal space */
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 5px; /* Adds space between buttons */
+}
+
+.social-btn {
+display: flex;
+align-items: center; /* Center the icon vertically */
+justify-content: center; /* Center the text */
+width: 100%;
+padding: 10px;
+border: none;
+border-radius: 4px;
+margin-bottom: 10px;
+cursor: pointer;
+color: white;
+}
+
+.social-btn i {
+margin-right: 8px; /* Space between the icon and text */
+}
+
+.social-btn:last-child {
+  margin-right: 0; /* Removes right margin from the last button */
+}
+
+.facebook {
+  background-color: #C9D9DF;
+  color: black;
+  font-weight: bold;
+}
+
+.linkedin {
+  background-color: #0077b5;
+  font-weight: bold;
+}
+
+.google {
+  background-color: #F6FAF9;
+  font-weight: bold;
+  color: black;
+}
+
+a {
+  color: #3b82f6;
+  text-decoration:none;
+}

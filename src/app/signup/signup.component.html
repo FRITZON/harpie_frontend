@@ -16,9 +16,6 @@
           <div *ngIf="signupForm.submitted && signupForm.controls['firstName']?.invalid" class="invalid-feedback">
             <div *ngIf="signupForm.controls['firstName']?.errors?.['required']">First Name is required</div>
           </div>
-        </div>
-
-        <div class="form-group">
           <input 
             type="text" 
             placeholder="Last Name" 
@@ -30,6 +27,10 @@
           <div *ngIf="signupForm.submitted && signupForm.controls['lastName']?.invalid" class="invalid-feedback">
             <div *ngIf="signupForm.controls['lastName']?.errors?.['required']">Last Name is required</div>
           </div>
+        </div>
+
+        <div class="form-group">
+          
         </div>
 
         <div class="form-group">
@@ -63,7 +64,7 @@
 
         <div class="form-group">
           <input 
-            type="password" 
+            [type]="isPasswordVisible ? 'text' : 'password'" 
             placeholder="Password"  
             class="form-control"  
             [(ngModel)]="password" 
@@ -75,16 +76,28 @@
             <div *ngIf="signupForm.controls['password']?.errors?.['required']">Password is required</div>
             <div *ngIf="signupForm.controls['password']?.errors?.['minlength']">Password must be at least 6 characters long</div>
           </div>
+          <span (click)="togglePasswordVisibility()" class="eye-icon">
+            <i [ngClass]="isPasswordVisible ? 'fa fa-eye' : 'fa fa-eye-slash'"></i>
+          </span>
         </div>
+        
 
         <button type="submit" class="signup-btn">Sign Up</button>
       </form>
 
       <p>OR</p>
-      <button class="social-btn facebook">Sign in with Facebook</button>
-      <button class="social-btn linkedin">Sign in with LinkedIn</button>
-      <button class="social-btn google">Sign in with Google</button>
+      <div class="social-buttons">
+        <button class="social-btn facebook">
+          <i class="fab fa-facebook-f"></i> Sign in with Facebook
+        </button>
+        <button class="social-btn linkedin">
+          <i class="fab fa-linkedin-in"></i> Sign in with LinkedIn
+        </button>
+      </div>
+      <button class="social-btn google">
+        <i class="fab fa-google"></i> Sign in with Google
+      </button>
       <p>Already have an account? <a href="#">Sign In</a></p>
     </div>
-  </div>
+</div>
 </div>
