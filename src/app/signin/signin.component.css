@@ -1,118 +1,145 @@
+
 .login-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #e0e0ff;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  background-color: #C1BFFE;
   
-  .login-card {
-    background-color: white;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 350px;
-  }
-  
-  h2 {
-    margin-bottom: 0.5rem;
-    font-size: 1.5rem;
-  }
-  
-  p {
-    margin-bottom: 1rem;
-    color: #666;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-  
-  input {
-    padding: 0.5rem;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-  }
-  
-  .password-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  a {
-    color: #007bff;
-    text-decoration: none;
-    font-size: 0.9rem;
-  }
-  
-  .sign-in-btn {
-    background-color: #ffcc00;
-    border: none;
-    padding: 0.5rem;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  
-  .separator {
-    margin: 1rem 0;
-    position: relative;
-    text-align: center;
-  }
-  
-  .separator::before,
-  .separator::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    width: 40%;
-    height: 1px;
-    background-color: #ccc;
-  }
-  
-  .separator::before {
-    left: 0;
-  }
-  
-  .separator::after {
-    right: 0;
-  }
-  
-  .social-buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-  
-  button {
-    border: none;
-    padding: 0.5rem;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  
-  .facebook-btn {
-    background-color: #3b5998;
-    color: white;
-  }
-  
-  .linkedin-btn {
-    background-color: #0077b5;
-    color: white;
-  }
-  
-  .google-btn {
-    background-color: white;
-    color: #333;
-    border: 1px solid #ccc;
-  }
-  
-  .signup-text {
-    margin-top: 1rem;
-    font-size: 0.9rem;
-  }
+}
+
+.login-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 550px; 
+  height: 645px;
+}
+
+h2 {
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+p {
+  color: #000000;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+input {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid rgba(190, 192, 248, 0.3); /* 30% opacity */;
+  background-color: rgba(190, 192, 248, 0.3); /* 30% opacity */;
+
+}
+
+input::placeholder {
+  color: #000000; /* Set placeholder text color to red */  
+}
+
+.password-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eye-icon {
+  cursor: pointer;
+  position: absolute; /* Adjust position as needed */
+  margin-top: 23px;
+  margin-left: 442px;
+  color: #718096;
+  transform: translateY(-50%); /* Center adjustment */
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.sign-in-btn {
+  background-color: #F8BD00;
+  border: none;
+  padding: 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.separator {
+  margin: 1rem 0;
+  position: relative;
+  text-align: center;
+}
+
+.social-buttons {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between the buttons */
+  margin-bottom: 10px; /* Adds spacing below the buttons */
+}
+
+.social-btn {
+  flex: 1; /* Allow buttons to take equal space */
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 15px; /* Adds space between buttons */
+}
+
+.social-btn:last-child {
+  margin-right: 0; /* Removes right margin from the last button */
+}
+
+button {
+  border: none;
+  padding: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.social-btn i {
+margin-right: 8px; /* Space between the icon and text */
+}
+
+.facebook {
+  background-color: #C9D9DF;
+  color: black;
+  font-weight: bold;
+}
+
+.linkedin {
+  background-color: #0077b5;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.google {
+  background-color: #F6FAF9;
+  font-weight: bold;
+  color: black;
+  width: 100%;
+  margin-top: 15px;
+}
+
+a {
+  color: #3b82f6;
+  text-decoration:none;
+}
+
+.signin-text {
+  margin-top: 2rem;
+  font-size: 1rem;
+}
