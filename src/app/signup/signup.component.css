@@ -150,7 +150,7 @@ a {
 }
 
 /* Media Queries for Responsive Design */
-@media (max-width: 600px) {
+@media (max-width: 600px){
   .main {
     background-color: transparent; 
   }
@@ -227,7 +227,7 @@ a {
   }
   .signup-text {
     font-size: 0.8rem;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
   }
 }
 

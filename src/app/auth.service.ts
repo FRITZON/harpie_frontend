@@ -18,4 +18,12 @@ export class AuthService {
   signin(user: any): Observable<any> {
     return this.http.post(`${this.apiUrl}/auth/login/`, user);
   }
+
+   requestPasswordReset(email: string): Observable<any> {
+    return this.http.post(`${this.apiUrl}/auth/request-password-reset/`, { email });
+  }
+
+  resetPassword(token: string, newPassword: string): Observable<any> {
+    return this.http.post(`${this.apiUrl}/auth/reset-password`, { token, newPassword });
+  }
 }

@@ -10,6 +10,10 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
 import { ChangePasswordComponent } from './change-password/change-password.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RequestConfirmationComponent } from './request-confirmation/request-confirmation.component';
+import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { LogoComponent } from './logo/logo.component';
 
 
 @NgModule({
@@ -19,7 +23,11 @@ import { RequestConfirmationComponent } from './request-confirmation/request-con
     SignupComponent,
     ForgotPasswordComponent,
     ChangePasswordComponent,
-    RequestConfirmationComponent
+    RequestConfirmationComponent,
+    HomeComponent,
+    HeaderComponent,
+    FooterComponent,
+    LogoComponent
   ],
   imports: [
     BrowserModule,
