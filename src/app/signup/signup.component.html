@@ -2,35 +2,39 @@
   <div class="container">
     <div class="form-card">
       <h2>Create an Account</h2>
-      <p>Join the fastest growing insurance manager <br> in Cameroon 🇨🇲</p>
-      <form #signupForm="ngForm" (ngSubmit)="onSubmit(signupForm)">
+      <p style="margin-bottom: 1.8rem;">Join the fastest growing insurance manager <br> in Cameroon 🇨🇲</p>
+      <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
         <div class="form-group">
           <input 
             type="text" 
             placeholder="First Name" 
             class="form-control"  
-            [(ngModel)]="firstName" 
+            formControlName="first_name" 
             name="firstName" 
             required 
           />
-          <div *ngIf="signupForm.submitted && signupForm.controls['firstName']?.invalid" class="invalid-feedback">
-            <div *ngIf="signupForm.controls['firstName']?.errors?.['required']">First Name is required</div>
-          </div>
+          <div *ngIf="signupForm.controls['first_name']?.errors?.['required'] && submitted" style="color: red;">First Name is required</div>
+          
           <input 
             type="text" 
             placeholder="Last Name" 
             class="form-control"  
-            [(ngModel)]="lastName" 
+            formControlName="last_name"
             name="lastName" 
             required 
           />
-          <div *ngIf="signupForm.submitted && signupForm.controls['lastName']?.invalid" class="invalid-feedback">
-            <div *ngIf="signupForm.controls['lastName']?.errors?.['required']">Last Name is required</div>
-          </div>
-        </div>
+          <div *ngIf="signupForm.controls['last_name']?.errors?.['required'] && submitted" style="color: red;">Last Name is required</div>  
 
-        <div class="form-group">
-          
+          <input 
+            type="text" 
+            placeholder="Ip address" 
+            class="form-control"  
+            formControlName="ip_address"
+            name="ip_address" 
+            required 
+          />
+          <div *ngIf="signupForm.controls['ip_address']?.errors?.['required'] && submitted" style="color: red;">ip_address is required</div>  
+
         </div>
 
         <div class="form-group">
@@ -38,14 +42,12 @@
             type="email" 
             placeholder="Email"  
             class="form-control"  
-            [(ngModel)]="email" 
+            formControlName="email"
             name="email" 
             required 
           />
-          <div *ngIf="signupForm.submitted && signupForm.controls['email']?.invalid" class="invalid-feedback">
-            <div *ngIf="signupForm.controls['email']?.errors?.['required']">Email is required</div>
-            <div *ngIf="signupForm.controls['email']?.errors?.['email']">Email must be a valid email address</div>
-          </div>
+          <div *ngIf="signupForm.controls['email']?.errors?.['required'] && submitted" style="color: red;">Email is required</div>
+          <div *ngIf="signupForm.controls['email']?.errors?.['email'] && submitted" style="color: red;">Email must be a valid email address</div>
         </div>
 
         <div class="form-group">
@@ -53,13 +55,11 @@
             type="tel" 
             placeholder="Phone"  
             class="form-control"  
-            [(ngModel)]="phone" 
+            formControlName="phone_one" 
             name="phone" 
             required 
           />
-          <div *ngIf="signupForm.submitted && signupForm.controls['phone']?.invalid" class="invalid-feedback">
-            <div *ngIf="signupForm.controls['phone']?.errors?.['required']">Phone Number is required</div>
-          </div>
+          <div *ngIf="signupForm.controls['phone_one']?.errors?.['required'] && submitted" style="color: red;">Phone Number is required</div>
         </div>
 
         <div class="form-group">
@@ -67,15 +67,13 @@
             [type]="isPasswordVisible ? 'text' : 'password'" 
             placeholder="Password"  
             class="form-control"  
-            [(ngModel)]="password" 
+            formControlName="password"
             name="password" 
             minlength="6" 
             required 
           />
-          <div *ngIf="signupForm.submitted && signupForm.controls['password']?.invalid" class="invalid-feedback">
-            <div *ngIf="signupForm.controls['password']?.errors?.['required']">Password is required</div>
-            <div *ngIf="signupForm.controls['password']?.errors?.['minlength']">Password must be at least 6 characters long</div>
-          </div>
+          <div *ngIf="signupForm.controls['password']?.errors?.['required'] && submitted" style="color: red;">Password is required</div>
+          <div *ngIf="signupForm.controls['password']?.errors?.['minlength'] && submitted" style="color: red;">Password must be at least 6 characters long</div>
           <span (click)="togglePasswordVisibility()" class="eye-icon">
             <i [ngClass]="isPasswordVisible ? 'fa fa-eye' : 'fa fa-eye-slash'"></i>
           </span>
@@ -83,21 +81,22 @@
         
 
         <button type="submit" class="signup-btn">Sign Up</button>
+
       </form>
 
-      <p>OR</p>
+      <div class="separator" style="color: #000; font-weight: bold;">OR</div>
       <div class="social-buttons">
-        <button class="social-btn facebook">
+        <button class="social-btn facebook"id="facebook-btn">
           <i class="fab fa-facebook-f"></i> Sign in with Facebook
         </button>
-        <button class="social-btn linkedin">
+        <button class="social-btn linkedin" id="linkedin-btn">
           <i class="fab fa-linkedin-in"></i> Sign in with LinkedIn
         </button>
       </div>
-      <button class="social-btn google">
+      <button class="social-btn google" id="google-btn" >
         <i class="fab fa-google"></i> Sign in with Google
       </button>
-      <p>Already have an account? <a href="#">Sign In</a></p>
+      <p class="signup-text" style="margin-top: 35px;">Already have an account? <a routerLink="/signin">Sign In</a></p>
     </div>
 </div>
 </div>

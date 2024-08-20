@@ -1,14 +1,13 @@
-.main{
+.main {
   background-color: #C1BFFE;
   margin: 0px;
   padding: 0px;
-
 }
+
 .container {
   display: flex;
   justify-content: center;
   align-items: center; 
-
 }
 
 .form-group {
@@ -17,18 +16,27 @@
   margin-bottom: 10px;
 }
 
+h2 {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  color: #000000; /* Added # for color */
+}
+
 input[type="text"],
 input[type="email"],
 input[type="tel"],
 input[type="password"] {
-  flex: 1; /* This allows the inputs to take equal space */
+  flex: 1; 
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #C9D9DF;
+  border: 1px solid rgba(190, 192, 248, 0.3); 
+  background-color: rgba(190, 192, 248, 0.3); 
   border-radius: 4px;
-  background-color: #C9D9DF;
 }
 
+input::placeholder {
+  color: #000000; 
+}
 
 .form-card {
   background-color: white;
@@ -36,47 +44,28 @@ input[type="password"] {
   padding: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  width: 600px;
+  width: 550px;
+  height: 762px;
   margin-top: 100px;
   margin-bottom: 100px;
 }
 
-.form-card h2 {
-  margin-bottom: 10px;
-}
-
 .form-card p {
   margin: 10px 0;
-  color: #666;
+  color: #000000;
 }
 
 .eye-icon {
   cursor: pointer;
-  position: absolute; /* Adjust position as needed */
-  right: 15px; /* Adjust to fit your design */
-  top: 50%; /* Center vertically */
-  transform: translateY(-50%); /* Center adjustment */
+  position: absolute; 
+  right: 15px; 
+  top: 40%; 
+  transform: translateY(-50%); 
+  color: #718096;
 }
-.form-group {
-  position: relative; /* Needed for absolute positioning of the eye icon */
-}
-
 
 .form-group {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 10px;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-input[type="password"] {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  position: relative; 
 }
 
 .signup-btn {
@@ -88,42 +77,49 @@ input[type="password"] {
   color: white;
   font-weight: bold;
   cursor: pointer;
-  margin-bottom: 10px;
+  margin-top: 0.6rem;
+  font-size: 0.9rem;
+}
+
+.separator {
+  margin: 1rem 0;
+  position: relative;
+  text-align: center;
 }
 
 .social-buttons {
   display: flex;
-  justify-content: space-between; /* Adjusts spacing between buttons */
-  margin-bottom: 10px; /* Adds spacing below the buttons */
+  justify-content: space-between; 
+  margin-bottom: 10px; 
 }
 
 .social-btn {
-  flex: 1; /* This allows the buttons to take equal space */
+  flex: 1; 
   padding: 10px;
   border: none;
   border-radius: 4px;
-  margin-right: 5px; /* Adds space between buttons */
+  margin-right: 20px; 
 }
 
 .social-btn {
-display: flex;
-align-items: center; /* Center the icon vertically */
-justify-content: center; /* Center the text */
-width: 100%;
-padding: 10px;
-border: none;
-border-radius: 4px;
-margin-bottom: 10px;
-cursor: pointer;
-color: white;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: white;
 }
 
 .social-btn i {
-margin-right: 8px; /* Space between the icon and text */
+  margin-right: 8px; 
 }
 
 .social-btn:last-child {
-  margin-right: 0; /* Removes right margin from the last button */
+  margin-right: 0; 
 }
 
 .facebook {
@@ -135,6 +131,7 @@ margin-right: 8px; /* Space between the icon and text */
 .linkedin {
   background-color: #0077b5;
   font-weight: bold;
+  color: #FFF;
 }
 
 .google {
@@ -145,5 +142,126 @@ margin-right: 8px; /* Space between the icon and text */
 
 a {
   color: #3b82f6;
-  text-decoration:none;
+  text-decoration: none;
+}
+
+.signup-text {
+  font-size: 1rem;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px){
+  .main {
+    background-color: transparent; 
+  }
+  .form-card {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 10px;
+    height: 100vh;
+    box-shadow: none;
+    border: none;
+    border-radius: 0px;
+  }
+  .form-group input {
+    width: 100%;
+  }
+  h2 {
+    font-size: 1.2rem; 
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"] {
+    padding: 7px;
+  }
+  input::placeholder {
+    font-size: 0.8rem; 
+  }
+  .eye-icon {
+    font-size: 12px;
+  }
+  .signup-btn {
+    margin-top: 1.2rem;
+    font-size: 0.8rem;
+  }
+  .separator {
+    font-size: 0.7rem;
+  }
+  .social-buttons {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  .social-buttons #facebook-btn {
+    order: 2 !important;
+  }
+  .social-buttons #linkedin-btn {
+    order: 3 !important;
+  }
+  .facebook {
+    font-size: 0.8rem;
+    margin-left: 17px;
+    margin-bottom: 19px;
+  }
+  .linkedin {
+    font-size: 0.8rem;  
+  }
+  .social-btn i {
+    font-size: 18px; 
+    margin-right: 8px; 
+  }
+  .google {
+    font-size: 0.8rem; 
+  }
+  #google-btn i {
+    font-size: 17px; 
+    margin-right: 4px; 
+    transform: translateX(-4px); 
+  }
+  #google-btn {
+    padding: 10px;
+  }
+  .signup-text {
+    font-size: 0.8rem;
+    padding-bottom: 15px;
+  }
+}
+
+/* Tablets */
+@media (min-width: 376px) and (max-width: 768px) {
+  .form-card {
+    padding: 30px;
+    width: 90%;
+  }
+  h2 {
+    font-size: 1.4rem; 
+  }
+  .signup-text {
+    font-size: 0.9rem;
+  }
+}
+
+/* Small Laptops and Larger Screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .form-card {
+    padding: 40px;
+    width: 70%;
+  }
+  h2 {
+    font-size: 1.6rem; 
+  }
+}
+
+/* Desktops */
+@media (min-width: 1025px) {
+  .form-card {
+    width: 550px; /* Maintain original width for larger screens */
+  }
+  h2 {
+    font-size: 1.8rem; 
+  }
 }

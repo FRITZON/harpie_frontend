@@ -23,6 +23,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "assets": [
+            "src/favicon.ico",
+            "src/assets"
+            
+          ],
             "outputPath": "dist/harpie",
             "index": "src/index.html",
             "browser": "src/main.ts",
@@ -30,12 +35,7 @@
               "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
-            "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
-            ],
+  
             "styles": [
               "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
@@ -105,6 +105,6 @@
     }
   },
   "cli": {
-    "analytics": "66b8739a-a5fd-412e-9cfe-b10e56aadcb6"
+    "analytics": "c6c2232f-5254-448a-8a20-4152fc6d0967"
   }
 }

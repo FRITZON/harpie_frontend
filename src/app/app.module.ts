@@ -8,6 +8,12 @@ import { SignupComponent } from './signup/signup.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
+import { HttpClientModule } from '@angular/common/http';
+import { RequestConfirmationComponent } from './request-confirmation/request-confirmation.component';
+import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { LogoComponent } from './logo/logo.component';
 
 
 @NgModule({
@@ -16,12 +22,19 @@ import { ChangePasswordComponent } from './change-password/change-password.compo
     SigninComponent,
     SignupComponent,
     ForgotPasswordComponent,
-    ChangePasswordComponent
+    ChangePasswordComponent,
+    RequestConfirmationComponent,
+    HomeComponent,
+    HeaderComponent,
+    FooterComponent,
+    LogoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule
     
   ],
   providers: [],

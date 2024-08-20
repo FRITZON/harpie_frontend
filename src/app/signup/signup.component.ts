@@ -1,37 +1,43 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../auth.service';
-import { NgForm } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-signup',
   templateUrl: './signup.component.html',
-  styleUrl: './signup.component.css'
+  styleUrls: ['./signup.component.css']
 })
 export class SignupComponent implements OnInit{
 
-  
-  firstName: string = '';
-  lastName: string = '';
-  email: string = '';
-  phone: string = '';
-  password: string = '';
-  isPasswordVisible: boolean = false; // Track password visibility
+  signupForm: FormGroup;
+  isPasswordVisible: boolean = false; 
+  submitted: boolean = false; 
 
-
-  constructor(){
-
+  constructor(private fb: FormBuilder, private authService: AuthService) {
+    this.signupForm = this.fb.group({
+      first_name: ['', Validators.required],
+      last_name: ['', Validators.required],
+      email: ['', [Validators.required, Validators.email]],
+      phone_one: ['', Validators.required],
+      ip_address:['',Validators.required],
+      password: ['', [Validators.required, Validators.minLength(6)]]
+    });
   }
-  
-  ngOnInit(): void {
-      
-  }
+
+  ngOnInit(): void {}
 
   togglePasswordVisibility() {
-    this.isPasswordVisible = !this.isPasswordVisible; // Toggle visibility
+    this.isPasswordVisible = !this.isPasswordVisible; 
   }
 
-  
-  onSubmit(form: NgForm){
-
-}
+  onSubmit() {
+    this.submitted = true; 
+    if (this.signupForm.valid) {
+      this.authService.signup(this.signupForm.value).subscribe(response => {
+        console.log('Signup successful', response);
+      }, error => {
+        console.error('Signup failed', error);
+      });
+    }
+  }
 }

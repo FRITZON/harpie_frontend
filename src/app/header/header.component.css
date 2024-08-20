@@ -1,0 +1,101 @@
+.header {
+    justify-content: space-between;
+    align-items: center;
+    background: radial-gradient(circle, #0ECE6D 0%, #179857 100%);
+    padding: 15px 30px; 
+    color: white;
+  }
+
+  .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    margin-top: 12px;
+    margin-bottom: 35px;
+  }
+
+  .nav a{
+    text-decoration: none;
+    color: #3E4073;
+    font-size: 1rem;
+     
+   }
+  
+  .contact1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 550px;
+    margin-left: 50px;
+  }
+  
+  .contact2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+    margin-right: 50px;
+  }
+  
+  .nav-search{
+    display: flex;
+    flex-direction: row;
+    border: 0px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 74px;
+    border-radius: 10px;
+    padding: 0 15px;  
+    max-width: 1380px;  
+    width: 100%;  
+    margin: 0 auto;
+    justify-content: space-between;
+  } 
+  .nav-search-links {  
+    display: flex;  
+    flex-direction: row;
+    align-items: center;  
+   
+
+  } 
+  .nav-search ul {
+    list-style: none; 
+    display: flex; 
+    margin: 0; 
+    padding: 0; 
+    align-items: center; 
+    justify-content: space-between;
+  }
+  
+  .nav-search li {
+    margin: 0 20px;
+    font-size: 1rem;
+  }
+  
+  .nav-search a {
+    color: #14176C; 
+    text-decoration: none; 
+  }
+  .logo {  
+    margin-right: 30px;  
+  } 
+  .nav-search select {
+     
+    color: #333; 
+    border: none; 
+    padding: 5px; 
+  }
+  .search{
+    width: 22px;
+    height: 22px;
+  }
+  .login-btn {
+    background-color: orange; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+     
+    
+  }
+  

@@ -1,0 +1,63 @@
+.confirmation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #C1BFFE;
+  }
+  
+  .confirmation-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+    margin-top: 63%;
+    margin-bottom: 70%;
+    height: 415px;
+  }
+  
+  h2 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: #000000;
+    
+  }
+  
+  p {
+    margin-bottom: 3rem;
+    color: #000000;
+    font-size: 1rem;
+    
+  }
+  
+  .checkmark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: #25314C;
+    border-radius: 50%;
+  }
+  
+  .checkmark span {
+    color: white;
+    font-size: 50px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration:underline;
+  }
+
+  .request-text{
+    margin-top: 3.5rem;
+    font-size: 1rem;
+  }
