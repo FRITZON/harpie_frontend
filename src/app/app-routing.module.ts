@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { LogoComponent } from './logo/logo.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { MainComponent } from './main/main.component';
 
 const routes: Routes = [
   {path: 'home', component:HomeComponent},
@@ -16,6 +17,7 @@ const routes: Routes = [
   {path: 'signin', component:SigninComponent},
   {path: 'logo', component:LogoComponent},
   {path: 'header', component:HeaderComponent},
+  {path: 'main', component:MainComponent},
   {path: 'footer', component:FooterComponent},
   {path: 'signup', component:SignupComponent},
   {path: 'forgot-password', component:ForgotPasswordComponent},

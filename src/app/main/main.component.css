@@ -1,0 +1,49 @@
+.banner {
+    text-align: center; 
+    padding: 40px; 
+    background-color: #FFFFFF; 
+    color: #14176C;
+    font-family: Arial, sans-serif; 
+  }
+  
+  .banner-title {
+    font-size: 32px; 
+    margin: 0; 
+  }
+  
+  .banner-subtitle {
+    font-size: 24px; 
+    margin-top: 10px; 
+  }
+  
+.card {
+    background-color: #28a745; 
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px; 
+    overflow: hidden; 
+  }  
+  .card-image {
+    width: 100%;
+    height: auto; 
+    margin: 0; 
+  }
+  
+  .card-content {
+    padding: 10px; 
+    text-align: center; 
+  }
+  
+  .card-title {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .card-subtitle {
+    font-size: 16px;
+    margin: 0;
+  }
+  

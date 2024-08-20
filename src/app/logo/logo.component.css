@@ -3,37 +3,37 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Full height for centering */
+  height: 100vh; 
 }
 
 .circle {
   position: absolute;
-  width: 170px; /* Adjust size as needed */
-  height: 170px; /* Adjust size as needed */
-  border: 10px solid; /* Border thickness */
+  width: 120px; 
+  height: 120px; 
+  border: 3px solid; 
   border-radius: 50%;
-  animation: rotate 4s linear infinite, changeBorderColor 4s linear infinite; /* Rotating and color change animations */
+  animation: rotate 4s linear infinite, changeBorderColor 4s linear infinite; 
 }
 
 .logo {
-  width: 100px; /* Adjust size as needed */
-  animation: beat 1s ease-in-out infinite; /* Pulsating effect */
+  width: 100px; 
+  animation: beat 1s ease-in-out infinite; 
 }
 
-/* Rotating animation for the circle */
+
 @keyframes rotate {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
 
-/* Change border color animation */
+
 @keyframes changeBorderColor {
   100% { border-color: #ECF6FA; }
   0% { border-color: #F7A400; }
   
 }
 
-/* Beating animation for the logo */
+
 @keyframes beat {
   0%, 100% { transform: scale(1); }
   50% { transform: scale(1.1); }

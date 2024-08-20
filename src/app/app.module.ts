@@ -14,6 +14,7 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { LogoComponent } from './logo/logo.component';
+import { MainComponent } from './main/main.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { LogoComponent } from './logo/logo.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    LogoComponent
+    LogoComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

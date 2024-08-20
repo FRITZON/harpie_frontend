@@ -12,10 +12,10 @@ export class LogoComponent implements OnInit{
   constructor(){}
 
   ngOnInit() {
-    // Simulate a loading delay
+    
     setTimeout(() => {
-      this.isLoading = false; // Hide logo after 3 seconds
-    }, 3000); // Change duration as needed
+      this.isLoading = false; 
+    }, 3000); 
   }
 
 }

@@ -227,12 +227,12 @@ a {
   }
   .signup-text {
     font-size: 0.8rem;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
   }
 }
 
 /* Tablets */
-@media (min-width: 376px) and (max-width: 768px) {
+@media (min-width: 376px){
   .form-card {
     padding: 30px;
     width: 90%;
