@@ -1,0 +1,632 @@
+{
+    "nav": {
+        "home": "Home",
+        "services": "Services",
+        "about": "About Us",
+        "contact": "Contact",
+        "login": "Log In",
+        "register": "Register",
+        "logout": "Logout",
+        "languages": "Languages",
+        "insurances": {
+            "select_insurance": "Select Service",
+            "vehicle_insurance": "Vehicle Insurance",
+            "life_insurance": "Life Insurance",
+            "health_insurance": "Health Insurance",
+            "car_insurance": "Car Insurance",
+            "travel_insurance": "Travel Insurance",
+            "business_insurance": "Business Insurance",
+            "death_insurance": "Death Insurance",
+            "home_insurance": "Home Insurance",
+            "house_insurance": "House Insurance",
+            "bank_insurance": "Credit Compare"
+        }
+    
+    },
+    "home": {
+        "hero_section": {
+            "section_one": {
+                "title": "Welcome to our website",
+                "description": "We are here to help you with all your insurance needs"
+            },
+            "home_blog_section": {
+                "title1":"OUR BLOG UPDATE",
+                "title2": "Featured News and Insight",
+                "sub_title1": "Blog Title",
+                "span1": "Read More" 
+            },
+            "offers":{
+                "title1": "Car Insurance",
+                "title2": "Home Insurance",
+                "title3": "Life Insurance",
+                "title4": "Business Insurance",
+                "title5": "Health Insurance",
+                "title6": "Death Insurance",
+                "title7": "Travel Insurance"
+            },
+            "cards":{
+                "title1": "Car Insurance",
+                "description1": "Pay for repair or replacement of your vehicle in case of accident or theft.",
+                "description1_long": "Auto insurance is a type of insurance that helps you pay for repair or replacement costs of your vehicle in case of accident or theft. It can also help protect your loved ones in case of accident.",
+                "option1": "Reliable Analysis",
+                "option1a": " Protect your loved ones in case of accident",
+                "option1b": "Reduce your taxes",
+                "option1c": "Save Time",
+                "option1d": "Increase your road safety",
+                "option1e": "Save Money",
+                "option1f": "Additional driver option",
+                "option1g": "Replacement vehicle option",
+                "option1h": "Legal protection option",
+                "option1i": "Roadside assistance option",
+
+                "choice_title1": "Additional Options",
+                "choice1a": "Additional driver option",
+                "choice1b": "Legal protection option",
+                "choice1c": "Replacement vehicle option",
+                "choice1d": "Roadside assistance option",
+
+                "restriction_title1": "There are several types of car insurance contracts, including:",
+                "restriction1a": "Mandatory car insurance",
+                "restriction1b": "Supplementary car insurance",
+                "restriction1c": "Comprehensive car insurance",
+                "restriction1d": "Civil liability car insurance",
+                "restriction1e": "All risks car insurance",
+
+
+
+
+                "title2": "Health Insurance",
+                "description2": "Health insurance is a type of insurance that helps you pay medical expenses in case of illness or accident. It can also help you prevent health problems and maintain your well-being.",
+                "option2": "Pay medical expenses in case of illness or accident",
+                "option2a": "Prevent health problems",
+                "option2b": "Maintain your well-being",
+                "option2c": "Reduce your taxes",
+
+                "restriction_title2": "Contract Types",
+                "restriction2a": "Individual health insurance",
+                "restriction2b": "Family health insurance",
+                "restriction2c": "Family health insurance",
+                "restriction2d": "Group health insurance",
+                "restriction2e": "Supplementary health insurance",
+
+                "choice_title2": "Additional Options",
+                "choice2a": "Dental care option",
+                "choice2b": "Optical care option",
+                "choice2c": "Hospital option",
+                "choice2d": "Alternative medicine option",
+
+
+
+                "title3": "Life Insurance",
+                "description3": "Life insurance is a type of insurance that pays a sum of money to your beneficiaries in case of death. It can also help you save for the future and protect your loved ones in case of death or disability.",
+                "option3": "Protect your loved ones in case of death or disability",
+                "option3a": "Save for the future",
+                "option3b": "Reduce your taxes",
+                "option3c": "Increase your assets",
+                "choice_title3": "You can also add supplementary options to your life insurance",
+                "choice3a": "Death option",
+                "choice3b": "Disability option",
+                "choice3c": "Long-term care option",
+                "choice3d": "Inflation option",
+
+                "restriction_title3": "There are several types of life insurance contracts, including",
+                "restriction3a": "Term life insurance",
+                "restriction3b": "Whole life insurance",
+                "restriction3c": "Universal life insurance",
+                "restriction3d": "Endowment life insurance",
+                "restriction3e": "Variable life insurance",
+
+
+
+
+
+                "title4": "Death Insurance",
+                "description4": "Protect your business with the best business insurance policies.",
+                "option4": "Public Liability Insurance",
+                "option4a": "Employers Liability Insurance",
+                "option4b": "Professional Indemnity Insurance",
+                "option4c": "Save Time",
+                "option4d": "Reliable Analysis",
+                "option4e": "Save Money",
+                "option4f": "100% Secure",
+
+
+                "title5": "Home Insurance",
+                "description5": "Home insurance is a type of insurance that helps you pay for repair or replacement of your home in case of damage or theft. It can also help protect your loved ones in case of disaster.",
+                "option5": "Pay for repair or replacement of your home in case of damage or theft",
+                "option5a": "Protect your loved ones in case of disaster",
+                "option5b": "Reduce your taxes",
+                "option5c": "Save Time",
+                "option5d": "Increase your home security",
+                "restriction_title": "There are several types of home insurance contracts, including:",
+                "restriction5a": "Mandatory home insurance",
+                "restriction5b": "Supplementary home insurance",
+                "restriction5c": "Comprehensive home insurance",
+                "restriction5d": "Civil liability home insurance",
+                "choice_title5": "Additional Options",
+                "choice5a": "Furniture option",
+                "choice5b": "Appliance option",
+                "choice5c": "Legal protection option",
+
+
+                "title6": "Business Insurance",
+                "description6": "Business insurance covers risks related to running a business, including financial losses, property damage, civil liability, and employee-related risks..",
+                "option6": "Covers business financial losses",
+                "option6a": " Protection against accidents/damages",
+                "option6b": "Covers property damage repairs.",
+                "option6c": "Covers third-party damage claims",
+                "option6d": "Covers workplace accident protection",
+                "option6e": "Protects business income",
+                "option6f": "24/7 emergency support services",
+
+                "restriction_title6": "There are several types of business insurance contracts, including:",
+                "restriction6a": "Public liability insurance",
+                "restriction6b": "Employers' liability insurance",
+                "restriction6c": "Professional indemnity insurance",
+                "restriction6d": "Product liability insurance",
+
+                "choice_title6": "Additional Options",
+                "choice6a": "Property damage option",
+                "choice6b": "Protected from financial hardship",
+                "choice6c": "Third-party damage option",
+                "choice6d": "Choose who receives business benefits",
+                "choice6e": "Provides long-term financial security",
+
+
+
+
+
+                "title7": "Travel Insurance",
+                "description7": "Travel insurance covers risks associated with traveling, including cancellations, delays, lost baggage, accidents and medical emergencies.",
+                "option7": "Covers trip cancellation costs",
+                "option7a": " Provides emergency travel protection",
+                "option7b": "Covers overseas healthcare costs.",
+                "option7c": "Covers emergency return transport",
+                "option7d": "Protects lost/stolen luggage",
+                "option7e": "Reimburses cancelled trips",
+                "option7f": "24/7 emergency travel support",
+
+                "restriction_title7": "There are several types of travel insurance contracts, including:",
+                "restriction7a": "Single trip insurance",
+                "restriction7b": "Annual multi-trip insurance",
+                "restriction7c": "Family travel insurance",
+                "restriction7d": "Business travel insurance",
+                "restriction7e": "Senior travel insurance",
+                "restriction7f": "Student travel insurance",
+
+                "choice_title7": "Additional Options",
+                "choice7a": "Medical expenses option",
+                "choice7b": "Protected from financial hardship",
+                "choice7c": "Trip cancellation option",
+                "choice7d": "Choose who receives travel benefits",
+                "choice7e": "Provides long-term financial security",
+
+
+
+
+                "title8": "Death Insurance",
+                "description8": "Death insurance is a type of insurance that pays a sum of money to your beneficiaries in case of death. It can also cover funeral expenses and debts you have left behind.",
+                "option8": "Protects family's financial future",
+                "option8a": "  Additional security after death",
+                "option8b": "Covers funeral and debt costs.",
+                "option8c": "Choose who receives death benefits",
+                "option8d": "Adaptable to individual needs",
+                
+                "restriction_title8": "There are several types of death insurance contracts, including:",
+                "restriction8a": "Basic death benefit payment only",
+                "restriction8b": "Death benefit with cash value",
+                "restriction8c": "Death benefit plus monthly payments",
+
+                "choice_title8": "Additional Options",
+                "choice8a": "Funeral expenses option",
+                "choice8b": " Protected from financial hardship",
+                "choice8c": "Debt repayment option",
+                "choice8d": "Choose who receives death benefits",
+                "choice8e": "Provides long-term financial security",
+
+
+                "title9": "Bank Insurance",
+                "title10": "Credit Compare"
+
+            },
+            "home_complicated_section":{
+                "title": "What we offer",
+                "paragraph": "Discover our insurance comparison services. Let us help you achieve your goals.",
+                "see-more-link": "See more services",
+                "home_card_compare_link":"Learn more"
+            },
+            "home_what_we_offer_video_contact_section":{
+                "title1": "Get a quote",
+                "paragraph1": "Compare insurance policies and save up to 70% on your insurance.",
+                "home_get_a_quote_link1": "Get a quote",
+                "title2": "Contact us",
+                "paragraph2": "Do you have any questions? Contact us and we will help you.",
+                "home_get_a_quote_link2": "Contact us",
+                "title3": "Watch our video",
+                "paragraph3": "Discover our insurance comparison services. Let us help you achieve your goals.",
+                "home_get_a_quote_link3": "Watch video"
+            },
+            "landing_section":{
+                "slides_section":{
+                    "title1":"100% IMPARTIAL insurance Comparator",
+                    "description1": "Protect what matters the most. From your home to your car, Harpie provides an easy way to compare insurance options",
+                    "title2":"Insurance for everyone",
+                    "description2": "Get the best insurance plans for your family and business",
+                    "title3":"Chooses the best Coverage for your valuable assets",
+                    "description3": "Get the best insurance plans for your family and business",
+                    "landing_carousel_button1" : "Get Started",
+                    "landing_carousel_button2" : "Learn More"
+                }
+            },
+            "partners":{
+                "title": "Our Partners"
+            },
+            "quote":{
+                "paragraph1": "Compare, evaluate and save on",
+                "paragraph2": "different insurance products",
+                "paragraph3": "and services!"
+            } 
+
+        }
+    },
+    "services_page": {
+        "service_hero_page": {
+            "section_one": {
+                "title": "We provide the best value",
+                "span": "insurance",
+                "paragraph": "Simple Steps You Can Take to Improve Your Financial Well-Being for the rest of Your Life"
+            },
+            "service_hero_page_cta": {
+                "span": "Insure your vehicle"
+            },
+            "service_page_best_service":{
+                "title": "Best Service",
+                "sub_title1": "24/7 Support",
+                "paragraph1": "Our Customer is out main priority",
+                "sub_title2": "Easy Flow",
+                "paragraph2": "Express your desires and needs to us",
+                "sub_title3": "Transparency",
+                "paragraph3": "We provide you with 100% transparent service"
+            },
+            "comments":{
+                "text1": "This insurance comparison system is amazing! I found the best policy in minutes.",
+                "author1": "John Doe",
+                "text2": "I've saved so much money using this service. Highly recommended!",
+                "author2": "Jane Smith",
+                "text3": "The user interface is intuitive and the results are spot on. Great job!",
+                "author3": "Mike Johnson",
+                "text4": "I never knew finding insurance could be this easy. Thank you!",
+                "author4": "Sarah Brown",
+                "text5": "Excellent service! It helped me understand my options clearly.",
+                "author5": "Chris Lee"
+            },
+            "comment_section": {
+                "title": "What Our Users Say"
+              },
+              "service_card_section": {
+                "title": "Experience the best Insurance Comparator in Cameroon",
+                "paragraph1": "Insurance Companies",
+                "paragraph2": "Daily Users",
+                "paragraph3": "Years In Business",
+                "paragraph4": "Available Countries"
+              },
+              "offers":{
+                "title1": "Car Insurance",
+                "description1": "Compare car insurance policies and save up to 70% on your insurance.",
+                "title2": "Home Insurance",
+                "description2": "Protect your home and your belongings with the best home insurance policies.",
+                "option2": "Building Insurance",
+                "option2a": "Contents Insurance",
+                "option2b": "Combined Building and Contents",
+                "option2c": "Save Time",
+                "option2d": "Reliable Analysis",
+                "option2e": "Save Money",
+                "option2f": "100% Secure",
+                "title3": "Life Insurance",
+                "description3": "Get the best life insurance policy for you and your family.",
+                "option3": "Term Life Insurance",
+                "option3a": "Whole Life Insurance",
+                "option3b": "Universal Life Insurance",
+                "option3c": "secure the future of your loved ones",
+                "option3d": "Get the best deal",
+                "option3e": "Save Money",
+                "option3f": "100% Secure",
+                "title4": "Business Insurance",
+                "description4": "Protect your business with the best business insurance policies.",
+                "option4": "Public Liability Insurance",
+                "option4a": "Employers Liability Insurance",
+                "option4b": "Professional Indemnity Insurance",
+                "option4c": "Save Time",
+                "option4d": "Reliable Analysis",
+                "option4e": "Save Money",
+                "option4f": "All risks insurance",
+                "title5": "Death Insurance",
+                "description5": "Insure your life and protect your loved ones with the best death insurance policies.",
+                "option5": "Term Life Insurance",
+                "option5a": "Whole Life Insurance",
+                "option5b": "Universal Life Insurance",
+                "option5c": "secure the future of your loved ones",
+                "option5d": "Get the best deal",
+                "option5e": "Save Money",
+                "option5f": "100% Secure",
+                "heading":"About Our",
+                "button-text": "Begin Compare"
+
+              }
+
+            }
+    },    
+    
+    "about_page": {
+        "hero_section": {
+            "title": "Get to know us",
+            "cta": "Our services",
+            "paragraph":"Our mission is to help you find the best insurance at the best price, with the coverage you need, among the offers of our insurance partners. We are committed to providing you with the best insurance experience, with the best service and the best advice."
+        },
+        "map_section_title":{
+            "title":"Visit our Headquaters"
+        },
+        "many_trust_us_section":{
+            "title":"Many Tr",
+            "span":"ust Us",
+            "paragraph": "Our mission is to help you find the best insurance at the best price, with the coverage you need, among the offers of our insurance partners. We are committed to providing you with the best insurance experience, with the best service and the best advice."
+    },
+    "many_trust_us_reason":{
+        "paragraph1": "Fast, reliable analysis",
+        "paragraph2": "Saving time and money",
+        "paragraph3": "100% secure",
+        "paragraph4": "We are committed to providing you with the best insurance experience, with the best service and the best advice"
+},
+    "why_choose_us_with_contact_form":{
+        "title":"Why Choose Us",
+        "sub_title1": "Ease your life",
+        "paragraph1": "We make it easy to compare rates, cover and conditions of different policies etc",
+        "sub_title2": "Trustworthy",
+        "paragraph2": "We are committed to providing you with the best insurance experience, with the best service and the best advice",
+        "sub_title3": "Details",
+        "paragraph3": "Using Our Comparator ensures that you do not over-look any relevant options as we provide you with all the options you may need.",
+        "sub_title4": "Best Price",
+        "paragraph4": "Our mission is to help you find the best insurance at the best price, with the coverage you need, among the offers of our insurance partners",
+
+        "contact_form":{
+            "title": "Send us a message",
+            "name": "Full Name",
+            "email": "Email Address",
+            "subject": "Subject",
+            "message": "Your Message...",
+            "btn": "Send"
+        }
+
+    }
+    },
+
+    "contact":{
+        "contact_us_page":{
+            "title1": "get in touch",
+            "paragraph1": "Have a question or need help? We’re here to help. Our customer service team is available 24/7.",
+            "paragraph2": "For order related inquiries, please include your order number for faster service.",
+            "paragraph3": "For general questions, please check our FAQ page first. If you can’t find the answer you’re looking for, please fill out the form below.",
+            "paragraph4": "For press inquiries, please contact us at:",
+            "contact_us_contact_method": "Somewhere in Douala",
+            "title2": "Say Something",
+            "btn": "Submit"
+
+        }
+
+    },
+    "compare": {
+        "next_button": "Next Question",
+        "previous_button": "Previous Question",
+        "submit_button": "Submit",
+        "confirm_button": "Confirm changes",
+        "selected": "Selected",
+        "license_plate": "Enter license plate number",
+        "aside_title": "Progress Stages",
+        "fail_to_send": "Failed to fetch the next question. Please try again."
+    },
+    "footer": {
+        "about": "About Us",
+        "top_links": "Top Links",
+        "home": "Home",
+        "contact_us": "Contact Us",
+        "phone": "Phone",
+        "email_us": "Email Us",
+        "our_services": "Our Services",
+        "store": "Store",
+        "privacy_policy": "Privacy Policy",
+        "stories": "Stories",
+        "about_us": "About Us",
+        "help": "Help",
+        "others": "Others",
+        "faq": "FAQ",
+        "report": "Report",
+        "terms_and_conditions": "Terms and Conditions",
+        "our_pages": "Our pages",
+        "nothing_else": "Nothing else",
+        "span1": "DOWNLOAD FROM",
+        "span2": "GET IT ON",
+        "terms_of_service": "Terms of Service"
+    },
+    "partial_result": {
+        "vehicle": {
+            "personal_and_vehicle_info": "Personal and Vehicle Information",
+            "vehicle_make": "Vehicle Make",
+            "vehicle_model": "Vehicle Model",
+            "vehicle_year": "Vehicle Year",
+            "fuel_type": "Fuel Type",
+            "engine_power": "Engine Power",
+            "vehicle_usage": "Vehicle Usage",
+            "usage_type": "Usage Type",
+            "ride_sharing": "Ride Sharing",
+            "regular_drivers": "Regular Drivers",
+            "driver_user_one": "Primary Driver",
+            "driver_user_two": "Secondary Driver",
+            "driver_user_three": "Third Driver",
+            "parking_location": "Parking Location",
+            "has_trailer": "Has Trailer",
+            "transport_flammable": "Transport Flammable Materials",
+            "select_vehicle": "Vehicle Type",
+            "registration_and_circulation": "Registration and Circulation",
+            "registration_location": "Registration Location",
+            "permit_number": "Permit Number",
+            "registration_number": "Registration Number",
+            "vehicle_category": "Vehicle Category",
+            "needs_vignette": "Needs Vignette",
+            "insurance_history": "Insurance History",
+            "previously_insured": "Previously Insured",
+            "previous_insurer": "Previous Insurer",
+            "has_previous_claims": "Has Previous Claims",
+            "previous_claims": "Previous Claims",
+            "claims_duration": "Claims Duration",
+            "renew_date": "Renewal Date",
+            "desired_coverage": "Desired Coverage",
+            "coverage_type": "Coverage Type",
+            "coverage_options": "Coverage Options",
+            "insurance_duration": "Insurance Duration",
+            "additional_info": "Additional Information",
+            "safety_devices": "Safety Devices",
+            "have_registration_document": "Have registration documents?",
+            "business_information": "Business information",
+            "personal_vehicle": "Personal Vehicle",
+            "registration_document": "Registration Document",
+            "code": {
+                "gasoline": "Gasoline",
+                "diesel": "Diesel",
+                "Electric": "Electric",
+                "hybrid": "Hybrid",
+                "3_to_6": "3 - 6 Horse Power",
+                "7_to_10": "7 - 10 Horse Power",
+                "11_to_14": "11 - 14 Horse Power",
+                "15_to_23": "15 - 23 Horse Power",
+                "24_++": "Over 24 Horse Power",
+                "personal": "Personal",
+                "business": "Business",
+                "yes": "Yes",
+                "no": "No",
+                "1": "1",
+                "2": "2",
+                "3": "3",
+                "garage": "Garage",
+                "home": "Home",
+                "street": "Street",
+                "parking_lot": "Parking lot",
+                "other": "Other",
+                "moto": "Motocycle",
+                "simple": "Simple",
+                "van": "Van",
+                "bus": "Bus",
+                "truck": "Truck",
+                "tanker": "Tanker",
+                "tourist_vehicle": "Tourist and business vehicle",
+                "truck_and_middle_class": "Vehicle (less than 3.5 tons) used for transporting products or goods belonging to the insured",
+                "trailer": "Vehicle used for the transport for consideration of products or goods belonging to third parties",
+                "expired": "Expired",
+                "expire_soon": "Will soon expire",
+                "just_started": "Just Started",
+                "rc_rti": "Civil Liability, Third-Party Fire and Theft",
+                "rc_dr": "Civil Liability, Defense and Recourse",
+                "rc_dr_acp": "Civil Liability, Defense and Recourse, for Driver and Passenger Insurance",
+                "all_risk": "Cover all risks incurred",
+                "none": "None",
+                "transported_persons": "Individual Transported Persons",
+                "accidental_death": "Accidental Death",
+                "disability": "Disability (Partial/Total)",
+                "medical_expenses": "Medical and Pharmaceutical Expenses",
+                "1_year": "1 year",
+                "6_months": "6 months",
+                "4_months": "4 months",
+                "2_months": "2 months",
+                "rc": "Civil Liability"
+            }
+        },
+        "health": {
+            "personal_info": "Personal Information",
+            "age": "Age",
+            "gender": "Gender",
+            "location": "Location",
+            "pre_existing_conditions": "Pre-existing Conditions",
+            "condition_details": "Condition Details",
+            "coverage_details": "Coverage Details",
+            "insurance_type": "Insurance Type",
+            "family_insurance_adult_count": "Number of Adults in Family",
+            "family_insurance_children_count": "Number of Children in Family",
+            "group_insurance_count": "Number of Employees",
+            "insurance_preferences": "Insurance Preferences",
+            "hospital_network_importance": "Hospital Network Importance",
+            "coverage_level": "Coverage Level",
+            "additional_features": "Additional Features",
+            "dental_care": "Dental Care",
+            "optical_care": "Optical Care",
+            "maternity_care": "Maternity Care",
+            "conventional_radiology": "Conventional Radiology",
+            "general_surgery": "General Surgery",
+            "physiotherapy": "Physiotherapy",
+            "chronic_disease_management": "Chronic Disease Management",
+            "additional_information": "Additional Information",
+            "specific_services": "Specific Services"
+        },
+        "death": {
+
+            "insuree_information": "insuree information",
+            "who_is_insuree": "Who is insuree",
+            "pricing": "Pricing",
+            "life_savings_plan": "Life savings",
+            "savings_purpose": "Savings Purpose",
+            "payment_frequency": "Payment Frequency",
+            "investment_style": "Investment Style",
+            "empowerment_plan": "Employment Plan",
+            "business_type": "Business Type",
+            "business_value": "Business Value",
+            "disability_plan": "Disability Plan",
+            "disability_type": "Disability Type",
+            "covegrae_type": "Coverage Type",
+            "monthly_income": "Monthly Income",
+            "accidental_death_plan": "Accidental Death Plan",
+            "risk_factors": "Risk Factors",
+            "critical_illness_plan": "Critical Illness Plan",
+            "coverage_diseases": "Coverage Diseases",
+            "payout_preference": "Payout Preference",
+            "educational_plan": "Educational Plan",
+            "educational_level": "Educational Level",
+            "study_location": "Study Location",
+            "beneficiary_details": "Beneficiary Details",
+            "beneficiary_type": "Beneficiary Type",
+            "beneficiary_count": "Beneficiary Count",
+            "second_beneficiary": "Second Beneficiary",
+            "death_benefit": "Death Benefit",
+            "death_options": "Death Options"
+        },
+        "life": {
+
+            "insuree_information": "insuree information",
+            "who_is_insuree": "Who is insuree",
+            "pricing": "Pricing",
+            "life_savings_plan": "Life savings",
+            "savings_purpose": "Savings Purpose",
+            "payment_frequency": "Payment Frequency",
+            "investment_style": "Investment Style",
+            "empowerment_plan": "Employment Plan",
+            "business_type": "Business Type",
+            "business_value": "Business Value",
+            "disability_plan": "Disability Plan",
+            "disability_type": "Disability Type",
+            "covegrae_type": "Coverage Type",
+            "monthly_income": "Monthly Income",
+            "accidental_death_plan": "Accidental Death Plan",
+            "risk_factors": "Risk Factors",
+            "critical_illness_plan": "Critical Illness Plan",
+            "coverage_diseases": "Coverage Diseases",
+            "payout_preference": "Payout Preference",
+            "educational_plan": "Educational Plan",
+            "educational_level": "Educational Level",
+            "study_location": "Study Location",
+            "beneficiary_details": "Beneficiary Details",
+            "beneficiary_type": "Beneficiary Type",
+            "beneficiary_count": "Beneficiary Count",
+            "second_beneficiary": "Second Beneficiary",
+            "death_benefit": "Death Benefit",
+            "life_plans": "Life Plans",
+            "death_options": "Death Options"
+        }
+    }
+}

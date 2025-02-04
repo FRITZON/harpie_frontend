@@ -1,0 +1,520 @@
+.insurance-questions {
+    display: flex;
+    height: 100%;
+    min-height: 33rem;
+    font-family: Arial, sans-serif;
+    width: 97%;
+    margin: auto;
+    margin-bottom: 8rem;
+}
+
+.progress-section {
+    flex: 1;
+    padding: 2rem;
+    flex-direction: column;
+    height: auto;
+}
+
+.stages {
+    display: flex;
+    flex-direction: column;
+}
+
+.stage {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+
+.stage.active {
+    background-color: orange;
+}
+
+.percentage {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+.question-section {
+    flex: 2;
+    padding: 2rem;
+    flex-direction: column;
+    display: flex;
+    padding-top: 0rem;
+    max-width: 700px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    margin-inline: auto;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    align-items: center;
+}
+.question-container {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+
+.question-container::-webkit-scrollbar {
+    display: none;
+}
+.question_control_btn {
+    height: 4rem;
+    padding: 0rem !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.question_control_btn.left {
+    background-color: #000 !important;
+}
+.question_control_btn:disabled {
+    /* background-color: #ccc !important; */
+}
+.question_control_btn .button_arrow {
+    background-color: var(--red);
+    display: block;
+    width: 4rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.72rem;
+}
+.question_control_btn.right .button_arrow {
+    background-color: var(--green);
+}
+.question_control_btn .button_text {
+    padding-inline: 1rem;
+}
+
+.question_control_btn.right:hover question_control_btn.right .button_arrow {
+    background-color: var(--green);
+    width: 100%;
+}
+.question_control_btn.validate {
+    padding-inline: 1.6rem !important;
+}
+.question-container::-webkit-scrollbar-thumb {
+    background-color: #3030301f;
+}
+.question-container::-webkit-scrollbar {
+    width: 0.5rem;
+}
+.question {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-left: 1px;
+}
+
+.question h2 {
+    display: none;
+}
+
+.question p {
+    margin-bottom: 1rem;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    height: auto;
+    max-height: 100%;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.insurance-questions button {
+    padding: 0.8rem 1.8rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: Outfit, sans-serif;
+    font-size: 1rem;
+}
+
+.insurance-questions .question_previous_btn {
+    background-color: black;
+}
+
+.insurance-questions button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.percentage.mobile {
+    display: none;
+}
+
+.insurance-questions .options {
+    margin-top: 1rem;
+}
+.insurance-questions .options_with_icon {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 1rem;
+    max-width: 400px;
+
+}   
+
+.insurance-questions .options input {
+    min-width: 15rem;
+    margin-top: 1rem;
+    border-radius: 1px solid var(--primary-color);
+    border-radius: 0px;
+    padding: 0.8rem 1rem;
+    font-family: Outfit;
+    display: inline-block;
+    outline: none;
+}
+
+.insurance-questions .options button {
+    min-width: 5rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.insurance-questions .options button:focus {
+    background-color: var(--secondary-color);
+}
+
+
+.options select {
+    width: 100%;
+    padding: 1rem;
+    max-width: 400px;
+    background-color: #d7daff;
+    border: none;
+    border-radius: 4px;
+}
+
+.options select::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+/* ========= COMPARISON RESULTS ========== */
+
+.comparison_filter_results {
+    width: 97%;
+    margin: 0rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.comparison_result_card {
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.complete_key_value_flex {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.comparison_filter_results li {
+    list-style: none;
+    margin: 0.4rem;
+    color: var(--primary-color);
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+    flex-wrap: nowrap;
+}
+
+.comparison_filter_results li span:nth-child(1) {
+    font-weight: bold;
+    white-space: nowrap;
+}
+.insurance_list_partial_results svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--secondary-color);
+    /* margin-right: 1rem; */
+}
+
+.comparison_submit_btn {
+    outline: none;
+    border: none;
+    border-radius: 0px;
+    font-family: Outfit, sans-serif;
+    color: #fff;
+    background-color: var(--primary-color);
+    padding: 0.9rem 1.9rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    font-size: 1rem;
+    margin: auto;
+    display: block;
+}
+.comparison_submit_btn:nth-of-type(1){
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.comparison_submit_btn:nth-of-type(2){
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.comparison_submit_btn:hover {
+    background-color: var(--secondary-color);
+}
+
+.comparison_filter_results .title {
+    margin-block: 2rem 1rem;
+}
+
+.select_with_icon {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid var(--primary-color);
+    background-color: var(--hover-color);
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    min-width: 8rem;
+}
+
+.select_with_icon.selected,
+.select_with_icon:hover {
+    /* border-color: var(--secondary-color); */
+    color: var(--secondary-color);
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: #fff;
+    transition: all .6s ease-in-out;
+}
+
+
+
+.select_with_icon svg {
+    fill: var(--primary-color);
+}
+
+.select_with_icon svg {
+    height: 3rem;
+    width: 3rem;
+}
+
+.select_with_icon:hover svg,
+.select_with_icon.selected svg {
+    fill: var(--secondary-color);
+}
+
+
+/* ============ INSURANCE MODAL SELECT ============ */
+
+.insurance_modal_select {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2931781c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.insurance_modal_select .modal_select {
+    width: 80%;
+    max-width: 40rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 4px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    min-height: 50vh;
+}
+
+.insurance_modal_select .modal_select h2 {
+    margin-bottom: 1rem;
+}
+
+.insurance_modal_select .modal_select button {
+    background-color: transparent;
+    color: var(--primary-color);
+    transition: all .3s ease-in-out;
+}
+
+.insurance_modal_select .modal_select button.selected {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.insurance_modal_select_contents .insurance_list_partial_results {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.insurance_list_partial_results span:nth-child(2) {
+    margin-inline: 1rem;
+}
+
+.insurance_list_selected_btn {
+    background-color: var(--green);
+    padding: 0.8rem 1.8rem;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    width: 15rem;
+    margin: 2rem auto;
+    transition: all .3s ease-in-out;
+}
+
+.insurance_list_selected_btn:hover {
+    background-color: var(--secondary-color);
+}
+
+
+.comparison_select_multiple_options {
+    --_clr-primary: #666;
+    --_clr-hover: #f33195;
+    --_clr-checked: #127acf;
+}
+
+.comparison_select_multiple_options>div {
+    --_clr-current: var(--_clr-primary);
+
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.comparison_select_multiple_options>div+div {
+    margin-top: 1.5rem;
+    margin-block-start: 0.5rem;
+}
+
+.comparison_select_multiple_options label {
+    cursor: pointer;
+    color: var(--_clr-current);
+    transition: color 150ms ease-in-out;
+    margin-top: 0.5rem;
+}
+
+.comparison_select_multiple_options input[type="checkbox"] {
+    appearance: none;
+    outline: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    aspect-ratio: 1;
+    padding: 0.25rem;
+    background: transparent;
+    border: 1px solid var(--_clr-current);
+    border-radius: 2px;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+    min-width: 0px;
+    margin-top: 0.5rem;
+}
+
+.comparison_select_multiple_options input[type="checkbox"]::after {
+    content: "\2714";
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+    color: var(--_clr-checked);
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.comparison_select_multiple_options label:hover,
+.comparison_select_multiple_options input[type="checkbox"]:focus-visible,
+.comparison_select_multiple_options input[type="checkbox"]:focus-visible+label,
+.comparison_select_multiple_options input[type="checkbox"]:hover,
+.comparison_select_multiple_options input[type="checkbox"]:hover+label {
+    --_clr-current: var(--_clr-hover);
+}
+
+.comparison_select_multiple_options input[type="checkbox"]:focus-visible::after,
+.comparison_select_multiple_options input[type="checkbox"]:hover::after {
+    opacity: 0.5;
+    color: var(--_clr-hover);
+}
+
+.comparison_select_multiple_options input[type="checkbox"]:checked+label:not(:hover),
+.comparison_select_multiple_options input[type="checkbox"]:checked:not(:hover) {
+    --_clr-current: var(--_clr-checked);
+}
+
+.comparison_select_multiple_options input[type="checkbox"]:checked::after {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .insurance-questions {
+        flex-direction: column;
+    }
+
+    .question-container {
+        height: auto;
+        min-height: 55dvh;
+    }
+
+    .progress-section {
+        order: 1;
+    }
+
+    .stages {
+        flex-direction: row;
+        overflow-x: auto;
+        white-space: nowrap;
+        padding-bottom: 1rem;
+    }
+
+    .stage {
+        display: inline-block;
+        margin-right: 1rem;
+        margin-bottom: 0;
+    }
+
+    .percentage {
+        order: 3;
+        text-align: center;
+        margin-top: 1rem;
+        display: none;
+    }
+
+    .percentage.mobile {
+        display: block;
+    }
+
+    .question-section {
+        order: 2;
+    }
+}
+
+@media(min-width:60rem) {
+
+    .comparison_filter_results,
+    .insurance-questions {
+        width: 80%;
+        max-width: 90rem;
+        margin: 0 auto; 
+    }
+}
